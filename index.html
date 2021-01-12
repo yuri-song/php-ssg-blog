@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +12,27 @@
 </head>
 
 <body>
- <!-- 반응형 -->
+
+
+</body>
+<script src="common.js"></script>
+<script src="index.js"></script>
+
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>송유리 블로그</title>
+
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<!-- 반응형 -->
 <meta name="viewport" content="width=device-width, user-scalable=no" />
 
 <!-- 폰트 어썸 불러오기 -->
@@ -61,11 +82,11 @@
                 <span>ABOUT</span></a>
             </li>
             <li><a href="#">
-              <span><i class="fas fa-book"></i></span>
-              <span>PORTFOLIO</span></a></li>
+                <span><i class="fas fa-book"></i></span>
+                <span>PORTFOLIO</span></a></li>
             <li><a href="#">
-              <span><i class="far fa-list-alt"></i></span>
-              <span>ARTICLES</span></a></li>
+                <span><i class="far fa-list-alt"></i></span>
+                <span>ARTICLES</span></a></li>
           </ul>
         </nav>
 
@@ -108,8 +129,8 @@
             <span>ABOUT</span></a>
         </li>
         <li><a href="#" class="block">
-          <span><i class="fas fa-book"></i></span>
-          <span>PORTFOLIO</span></a></li>
+            <span><i class="fas fa-book"></i></span>
+            <span>PORTFOLIO</span></a></li>
         <li>
           <a href="#" class="block">
             <span><i class="far fa-list-alt"></i></span>
@@ -123,16 +144,19 @@
 
   <!-- 메인 시작 -->
   <main>
+    <!-- 1번-->
+
+    <!-- 2번 끝-->
     <section class="section-latest-articles con-min-width">
       <div class="con">
         <div class="article-list-box">
           <ul>
             <li>
-              <h1 class="title">Swiper_버튼 활용</h1>
-              <div class="reg-date">2020-01-12 17:50</div>
+              <h1 class="title">Swiper_게이지바 활용</h1>
+              <div class="reg-date">2020-01-13 00:57</div>
               <div class="body">
                 <script type="text/x-template">
-# Swiper 버튼 (HTML)
+                  # Swiper 게이지바 (HTML)
 ```html
 <<!--REPLACE:script-->>
 <section class="section-1">
@@ -143,47 +167,220 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="img-box"><img src="https://picsum.photos/id/201/1200/500" alt=""></div>
-          </div>
+                  </div>
           <div class="swiper-slide">
             <div class="img-box"><img src="https://picsum.photos/id/202/1200/500" alt=""></div>
-          </div>
+                  </div>
           <div class="swiper-slide">
             <div class="img-box"><img src="https://picsum.photos/id/203/1200/500" alt=""></div>
-          </div>
+                  </div>
           <div class="swiper-slide">
             <div class="img-box"><img src="https://picsum.photos/id/204/1200/500" alt=""></div>
-          </div>
+                  </div>
           <div class="swiper-slide">
             <div class="img-box"><img src="https://picsum.photos/id/206/1200/500" alt=""></div>
-          </div>
+                  </div>
           <div class="swiper-slide">
             <div class="img-box"><img src="https://picsum.photos/id/208/1200/500" alt=""></div>
-          </div>
+                  </div>
           <div class="swiper-slide">
             <div class="img-box"><img src="https://picsum.photos/id/209/1200/500" alt=""></div>
-          </div>
+                  </div>
           <div class="swiper-slide">
             <div class="img-box"><img src="https://picsum.photos/id/210/1200/500" alt=""></div>
-          </div>
-        </div>
+                  </div>
+                  </div>
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-      </div>
-    </div>
-  </div>
-</section>
+                  </div>
+                  </div>
+                  </div>
+                  </section>
                   </<!--REPLACE:script-->>
 ```
 
 # Swiper 버튼 (js)
 ```javascript
 function MySlider__init(no) {
-  var mySwiper = new Swiper('.my-slider-' + no + ' .swiper-container', {
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-  });
+var mySwiper = new Swiper('.my-slider-' + no + ' .swiper-container', {
+pagination: {
+el: '.swiper-pagination',
+type: 'progressbar',
+},
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+});
+}
+
+MySlider__init(1);
+
+```
+
+# 실습
+```codepen
+https://codepen.io/yurisong/embed/GRjYWvL?height=265&theme-id=light&default-tab=html,result
+```
+
+# 참고영상
+```youtube
+1IPWQ0wlVoo
+```
+                </script>
+                <div class="toast-ui-viewer"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section-latest-articles con-min-width">
+      <div class="con">
+        <div class="article-list-box">
+          <ul>
+            <li>
+              <h1 class="title">Swiper_페이지바 활용</h1>
+              <div class="reg-date">2020-01-13 00:57</div>
+              <div class="body">
+                <script type="text/x-template">
+                  # Swiper 페이지바 (HTML)
+```html
+<<!--REPLACE:script-->>
+<section class="section-1">
+  <div>
+    <h1>스와이퍼 1</h1>
+    <div class="my-slider my-slider-1">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/201/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/202/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/203/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/204/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/206/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/208/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/209/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/210/1200/500" alt=""></div>
+                  </div>
+                  </div>
+        <div class="swiper-pagination"></div>
+                  </div>
+                  </div>
+                  </div>
+                  </section>
+                  </<!--REPLACE:script-->>
+```
+
+# Swiper 페이지바 (js)
+```javascript
+function MySlider__init(no) {
+var mySwiper = new Swiper('.my-slider-' + no + ' .swiper-container', {
+pagination: {
+el: '.swiper-pagination',
+},
+});
+}
+
+MySlider__init(1);
+
+```
+
+# 실습
+```codepen
+https://codepen.io/yurisong/embed/YzGJZNO?height=265&theme-id=light&default-tab=html,result
+```
+
+# 참고영상
+```youtube
+G4gjZ97lx14
+```
+                </script>
+                <div class="toast-ui-viewer"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-latest-articles con-min-width">
+      <div class="con">
+        <div class="article-list-box">
+          <ul>
+            <li>
+              <h1 class="title">Swiper_버튼 활용</h1>
+              <div class="reg-date">2020-01-12 17:50</div>
+              <div class="body">
+                <script type="text/x-template">
+                  # Swiper 버튼 (HTML)
+```html
+<<!--REPLACE:script-->>
+<section class="section-1">
+  <div>
+    <h1>스와이퍼 1</h1>
+    <div class="my-slider my-slider-1">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/201/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/202/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/203/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/204/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/206/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/208/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/209/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/210/1200/500" alt=""></div>
+                  </div>
+                  </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+                  </div>
+                  </div>
+                  </div>
+                  </section>
+                  </<!--REPLACE:script-->>
+```
+
+# Swiper 버튼 (js)
+```javascript
+function MySlider__init(no) {
+var mySwiper = new Swiper('.my-slider-' + no + ' .swiper-container', {
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+});
 }
 
 MySlider__init(1);
@@ -203,13 +400,21 @@ https://codepen.io/yurisong/embed/XWjxbPQ?height=265&theme-id=light&default-tab=
                 <div class="toast-ui-viewer"></div>
               </div>
             </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- 최하단 -->
+    <section class="section-latest-articles con-min-width">
+      <div class="con">
+        <div class="article-list-box">
+          <ul>
             <li>
-<!-- 최하단 -->
- <h1 class="title">Swiper 사용법</h1>
+              <h1 class="title">Swiper 사용법</h1>
               <div class="reg-date">2020-01-12 14:49</div>
               <div class="body">
                 <script type="text/x-template">
-# Swiper 사용법(HTML)
+                  # Swiper 사용법(HTML)
 ```html
 <<!--REPLACE:script-->>
 <!-- Slider main container -->
@@ -237,25 +442,25 @@ https://codepen.io/yurisong/embed/XWjxbPQ?height=265&theme-id=light&default-tab=
 # Swiper 사용법(JS)
 ```js
 var mySwiper = new Swiper('.swiper-container', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
+// Optional parameters
+direction: 'vertical',
+loop: true,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
+// If we need pagination
+pagination: {
+el: '.swiper-pagination',
+},
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+// Navigation arrows
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+// And if we need scrollbar
+scrollbar: {
+el: '.swiper-scrollbar',
+},
 })
 ```
 # 실습
@@ -277,7 +482,6 @@ nmo45DTXEcM
     </section>
 
   </main>
-
   <!-- 하단바 시작 -->
   <footer class="bottom-bar con-min-width">
     <div class="con flex flex-jc-c">
@@ -288,11 +492,11 @@ nmo45DTXEcM
     </div>
   </footer>
   <!-- 하단바 끝 -->
-
 </div>
 
 </body>
 <script src="common.js"></script>
 <script src="index.js"></script>
 
+>>>>>>> 564e4bc180fcb96cb966bf6ee2aeef97a188d4dd
 </html>
