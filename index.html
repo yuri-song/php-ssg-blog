@@ -123,15 +123,105 @@
 
   <!-- 메인 시작 -->
   <main>
-    <!-- 1번-->
-
-    <!-- 2번 끝-->
     <section class="section-latest-articles con-min-width">
       <div class="con">
         <div class="article-list-box">
           <ul>
             <li>
-              <h1 class="title">Swiper_게이지바 활용</h1>
+              <h1 class="title">Swiper_분수 적용</h1>
+              <div class="reg-date">2020-01-14 02:00</div>
+              <div class="body">
+                <script type="text/x-template">
+                  # Swiper 게이지바 (HTML)
+```html
+<<!--REPLACE:script-->>
+<section class="section-1">
+  <div>
+    <h1>스와이퍼 1</h1>
+    <div class="my-slider my-slider-1">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/201/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/202/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/203/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/204/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/206/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/208/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/209/1200/500" alt=""></div>
+                  </div>
+          <div class="swiper-slide">
+            <div class="img-box"><img src="https://picsum.photos/id/210/1200/500" alt=""></div>
+                  </div>
+                  </div>
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+                  </div>
+                  </div>
+                  </div>
+                  </section>
+                  </<!--REPLACE:script-->>
+```
+
+# Swiper 버튼 (js)
+```javascript
+function MySlider__init(no) {
+var mySwiper = new Swiper('.my-slider-' + no + ' .swiper-container', {
+pagination: {
+el: '.swiper-pagination',
+type: 'fraction',
+},
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+});
+}
+
+MySlider__init(1);
+
+```
+
+# 실습
+```codepen
+https://codepen.io/yurisong/embed/QWKardo?height=265&theme-id=light&default-tab=html,result
+```
+
+# 참고영상
+```youtube
+1IPWQ0wlVoo
+```
+                </script>
+                <div class="toast-ui-viewer"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- 0번-->
+
+    
+    <section class="section-latest-articles con-min-width">
+      <div class="con">
+        <div class="article-list-box">
+          <ul>
+            <li>
+              <h1 class="title">Swiper_게이지바 적용</h1>
               <div class="reg-date">2020-01-13 00:57</div>
               <div class="body">
                 <script type="text/x-template">
@@ -216,12 +306,13 @@ https://codepen.io/yurisong/embed/GRjYWvL?height=265&theme-id=light&default-tab=
         </div>
       </div>
     </section>
+    <!-- 1번-->
     <section class="section-latest-articles con-min-width">
       <div class="con">
         <div class="article-list-box">
           <ul>
             <li>
-              <h1 class="title">Swiper_페이지바 활용</h1>
+              <h1 class="title">Swiper_페이지바 적용</h1>
               <div class="reg-date">2020-01-13 00:57</div>
               <div class="body">
                 <script type="text/x-template">
@@ -298,13 +389,13 @@ G4gjZ97lx14
         </div>
       </div>
     </section>
-
+<!-- 2번 끝-->
     <section class="section-latest-articles con-min-width">
       <div class="con">
         <div class="article-list-box">
           <ul>
             <li>
-              <h1 class="title">Swiper_버튼 활용</h1>
+              <h1 class="title">Swiper_버튼 적용</h1>
               <div class="reg-date">2020-01-12 17:50</div>
               <div class="body">
                 <script type="text/x-template">
