@@ -51,7 +51,7 @@
         <nav class="top-bar__menu">
           <ul class="flex">
             <li>
-              <a href="">
+              <a href="./">
                 <span><i class="fas fa-home"></i></span>
                 <span>HOME</span></a>
             </li>
