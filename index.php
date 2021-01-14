@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta charset="UTF-8">
@@ -51,12 +51,12 @@
         <nav class="top-bar__menu">
           <ul class="flex">
             <li>
-              <a href="#">
+              <a href="">
                 <span><i class="fas fa-home"></i></span>
                 <span>HOME</span></a>
             </li>
             <li>
-              <a href="#">
+              <a href="about.php">
                 <span><i class="fas fa-user"></i></span>
                 <span>ABOUT</span></a>
             </li>
@@ -98,12 +98,12 @@
     <nav class="mobile-side-bar__menu-box">
       <ul>
         <li>
-          <a href="#" class="block">
+          <a href="" class="block">
             <span><i class="fas fa-home"></i></span>
             <span>HOME</span></a>
         </li>
         <li>
-          <a href="#" class="block">
+          <a href="about.php" class="block">
             <span><i class="fas fa-user"></i></span>
             <span>ABOUT</span></a>
         </li>
@@ -123,6 +123,16 @@
 
   <!-- 메인 시작 -->
   <main>
+    <section class="section-title con-min-width">
+      <h1 class="con">
+        <span>
+          <i class="fas fa-fire"></i>
+        </span>
+        <span>
+          LATEST ARTICLES
+        </span>
+      </h1>
+    </section>
 <!-- 4번 -->
 
 <section class="section-latest-articles con-min-width">
@@ -132,6 +142,15 @@
             <li>
               <h1 class="title">Swiper_루프 적용</h1>
               <div class="reg-date">2020-01-14 02:00</div>
+              <div class="reg-writer">
+                <span>송유리</span>
+                <span>
+                  <svg viewBox="0 0 264 280">
+                    <use xlink:href="#avatar-1"></use>
+                  </svg>
+                </span>
+
+              </div>
               <div class="body">
                 <script type="text/x-template">
                   # Swiper 루프 (HTML)
@@ -227,6 +246,15 @@ https://codepen.io/yurisong/embed/VwKyxbz?height=265&theme-id=light&default-tab=
             <li>
               <h1 class="title">Swiper_분수 적용</h1>
               <div class="reg-date">2020-01-14 02:00</div>
+              <div class="reg-writer">
+                <span>송유리</span>
+                <span>
+                  <svg viewBox="0 0 264 280">
+                    <use xlink:href="#avatar-1"></use>
+                  </svg>
+                </span>
+
+              </div>
               <div class="body">
                 <script type="text/x-template">
                   # Swiper 분수 (HTML)
@@ -320,6 +348,15 @@ https://codepen.io/yurisong/embed/QWKardo?height=265&theme-id=light&default-tab=
             <li>
               <h1 class="title">Swiper_게이지바 적용</h1>
               <div class="reg-date">2020-01-13 00:57</div>
+              <div class="reg-writer">
+                <span>송유리</span>
+                <span>
+                  <svg viewBox="0 0 264 280">
+                    <use xlink:href="#avatar-1"></use>
+                  </svg>
+                </span>
+
+              </div>
               <div class="body">
                 <script type="text/x-template">
                   # Swiper 게이지바 (HTML)
@@ -411,6 +448,15 @@ https://codepen.io/yurisong/embed/GRjYWvL?height=265&theme-id=light&default-tab=
             <li>
               <h1 class="title">Swiper_페이지바 적용</h1>
               <div class="reg-date">2020-01-13 00:57</div>
+              <div class="reg-writer">
+                <span>송유리</span>
+                <span>
+                  <svg viewBox="0 0 264 280">
+                    <use xlink:href="#avatar-1"></use>
+                  </svg>
+                </span>
+
+              </div>
               <div class="body">
                 <script type="text/x-template">
                   # Swiper 페이지바 (HTML)
@@ -494,6 +540,15 @@ G4gjZ97lx14
             <li>
               <h1 class="title">Swiper_버튼 적용</h1>
               <div class="reg-date">2020-01-12 17:50</div>
+              <div class="reg-writer">
+                <span>송유리</span>
+                <span>
+                  <svg viewBox="0 0 264 280">
+                    <use xlink:href="#avatar-1"></use>
+                  </svg>
+                </span>
+
+              </div>
               <div class="body">
                 <script type="text/x-template">
                   # Swiper 버튼 (HTML)
@@ -579,6 +634,15 @@ https://codepen.io/yurisong/embed/XWjxbPQ?height=265&theme-id=light&default-tab=
             <li>
               <h1 class="title">Swiper 사용법</h1>
               <div class="reg-date">2020-01-12 14:49</div>
+              <div class="reg-writer">
+                <span>송유리</span>
+                <span>
+                  <svg viewBox="0 0 264 280">
+                    <use xlink:href="#avatar-1"></use>
+                  </svg>
+                </span>
+
+              </div>
               <div class="body">
                 <script type="text/x-template">
                   # Swiper 사용법(HTML)
