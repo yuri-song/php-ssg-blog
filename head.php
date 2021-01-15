@@ -51,12 +51,12 @@
         <nav class="top-bar__menu">
           <ul class="flex">
             <li>
-              <a href="./">
+              <a href="index.ssghtml.php">
                 <span><i class="fas fa-home"></i></span>
                 <span>HOME</span></a>
             </li>
             <li>
-              <a href="about.php">
+              <a href="about.ssghtml.php">
                 <span><i class="fas fa-user"></i></span>
                 <span>ABOUT</span></a>
             </li>
