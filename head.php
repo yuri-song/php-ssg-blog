@@ -44,7 +44,7 @@
   <header class="visible-md-up">
     <div class="top-bar con-min-width">
       <div class="con height-100p flex flex-jc-c flex-ai-c flex-jc-sb">
-        <a class="logo">
+        <a href="index.ssghtml.php" class="logo">
           <span>💙</span>
           <span>yruong_blog</span>
         </a>
@@ -60,7 +60,7 @@
                 <span><i class="fas fa-user"></i></span>
                 <span>ABOUT</span></a>
             </li>
-            <li><a href="#">
+            <li><a href="pf.ssghtml.php">
                 <span><i class="fas fa-book"></i></span>
                 <span>PORTFOLIO</span></a></li>
             <li><a href="#">

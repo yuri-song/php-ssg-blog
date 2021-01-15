@@ -12,6 +12,7 @@ require_once "head.php";
         </span>
       </h1>
     </section>
+    
 <?php
 require_once "foot.php";
 ?>
