@@ -85,7 +85,7 @@
       </div>
     </div>
     <div>
-      <a class="logo height-100p">
+      <a href="index.ssghtml.php" class="logo height-100p">
         <span>💙</span>
         <span>yrong_blog</span>
       </a>
@@ -98,16 +98,16 @@
     <nav class="mobile-side-bar__menu-box">
       <ul>
         <li>
-          <a href="" class="block">
+          <a href="index.ssghtml.php" class="block">
             <span><i class="fas fa-home"></i></span>
             <span>HOME</span></a>
         </li>
         <li>
-          <a href="about.php" class="block">
+          <a href="about.ssghtml.php" class="block">
             <span><i class="fas fa-user"></i></span>
             <span>ABOUT</span></a>
         </li>
-        <li><a href="#" class="block">
+        <li><a href="pf.ssghtml.php" class="block">
             <span><i class="fas fa-book"></i></span>
             <span>PORTFOLIO</span></a></li>
         <li>
