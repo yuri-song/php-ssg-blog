@@ -39,11 +39,12 @@
             this.page.url = 'https://https://b.yrongs.com/article_detail_<?=$articleId?>.html';
             this.page.identifier = 'article_detail_<?=$articleId?>.html';
         };
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https:///yurong-phpblog.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
+        (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                    s = d.createElement('script');
+                    s.src = 'https://phpblog-2.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
         })();
     </script>
     </div>
