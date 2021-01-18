@@ -2,7 +2,7 @@
 $siteTitle = "송유리 블로그";
 
 
-<!-- 5번 -->
+// 5번
 
 $article6 = [];
 $article6["title"] = "Swiper_루프 적용";
@@ -95,7 +95,7 @@ exit;
 
 
 
-<!-- 4번 -->
+//4번
 
 $article5 = [];
 $article5["title"] = "Swiper_분수 적용";
@@ -184,7 +184,7 @@ print_r($article1);
 exit;
 
 
-<!-- 3번 -->
+// 3번
 
 $article4 = [];
 $article4["title"] = "Swiper_게이지바 적용";
@@ -273,7 +273,7 @@ print_r($article1);
 exit;
 
 
-<!-- 2번 -->
+// 2번 
 
 $article3 = [];
 $article3["title"] = "Swiper_페이지바 적용";
@@ -353,7 +353,7 @@ EOT;
 print_r($article1);
 exit;
 
-<!-- 1번 -->
+// 1번
 
 $article2 = [];
 $article2["title"] = "Swiper_버튼 적용";
