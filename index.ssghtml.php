@@ -28,7 +28,8 @@ require_once "head.php";
             </span>
 
           </div>
-          <div class="body">
+
+          <div class="article-list-box__body">
             <script type="text/x-template"><?=$article6["body"]?></script>
             <div class="toast-ui-viewer"></div>
           </div>
@@ -53,7 +54,8 @@ require_once "head.php";
             </span>
 
           </div>
-          <div class="body">
+
+          <div class="article-list-box__body">
             <script type="text/x-template"><?=$article5["body"]?></script>
             <div class="toast-ui-viewer"></div>
           </div>
@@ -79,7 +81,8 @@ require_once "head.php";
             </span>
 
           </div>
-          <div class="body">
+
+          <div class="article-list-box__body">
             <script type="text/x-template"><?=$article4["body"]?></script>
             <div class="toast-ui-viewer"></div>
           </div>
@@ -103,7 +106,8 @@ require_once "head.php";
             </span>
 
           </div>
-          <div class="body">
+
+          <div class="article-list-box__body">
             <script type="text/x-template"><?=$article3["body"]?></script>
             <div class="toast-ui-viewer"></div>
           </div>
@@ -127,7 +131,8 @@ require_once "head.php";
             </span>
 
           </div>
-          <div class="body">
+
+          <div class="article-list-box__body">
             <script type="text/x-template"><?=$article2["body"]?></script>
             <div class="toast-ui-viewer"></div>
           </div>
@@ -151,7 +156,8 @@ require_once "head.php";
             </span>
 
           </div>
-          <div class="body">
+
+          <div class="article-list-box__body">
             <script type="text/x-template"><?=$article1["body"]?></script>
             <div class="toast-ui-viewer"></div>
           </div>
