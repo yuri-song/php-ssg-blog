@@ -9,7 +9,6 @@ $article6["reg-date"] = "2020-01-14 02:00";
 $article6["writer"] = "송유리";
 $article6["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article6["body"] = <<<EOT
-# 개요<<
 # Swiper 루프 (HTML)
 ```html
 <<!--REPLACE:script-->>
