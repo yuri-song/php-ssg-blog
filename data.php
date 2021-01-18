@@ -1,5 +1,5 @@
 <?php
-$siteTitle = "송유리 블로그";
+$siteTitle = "yrong_blog";
 
 // 5번
 
