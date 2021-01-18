@@ -6,12 +6,11 @@ $siteTitle = "송유리 블로그";
 
 $article6 = [];
 $article6["title"] = "Swiper_루프 적용";
-$article6["reg-date"] = "2020-01-14 02:00"
+$article6["reg-date"] = "2020-01-14 02:00";
 $article6["writer"] = "송유리";
-$article6["writerAvatear"] = '<svg viewBox="0 0 264 280">
-<use xlink:href="#avatar-1"></use>
-</svg>';
+$article6["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article6["body"] = <<<EOT
+# Swiper 루프 (HTML)
 ```html
 <<!--REPLACE:script-->>
 <section class="section-1">
@@ -90,21 +89,17 @@ https://codepen.io/yurisong/embed/VwKyxbz?height=265&theme-id=light&default-tab=
 
 EOT;
 
-print_r($article6);
-exit;
-
 
 
 //4번
 
 $article5 = [];
 $article5["title"] = "Swiper_분수 적용";
-$article5["reg-date"] = "2020-01-14 02:00"
+$article5["reg-date"] = "2020-01-14 02:00";
 $article5["writer"] = "송유리";
-$article5["writerAvatear"] = '<svg viewBox="0 0 264 280">
-<use xlink:href="#avatar-1"></use>
-</svg>';
+$article5["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article5["body"] = <<<EOT
+# Swiper 분수 (HTML)
 ```html
 <<!--REPLACE:script-->>
 <section class="section-1">
@@ -180,20 +175,16 @@ https://codepen.io/yurisong/embed/QWKardo?height=265&theme-id=light&default-tab=
 
 EOT;
 
-print_r($article5);
-exit;
-
 
 // 3번
 
 $article4 = [];
 $article4["title"] = "Swiper_게이지바 적용";
-$article4["reg-date"] = "2020-01-13 00:57"
+$article4["reg-date"] = "2020-01-13 00:57";
 $article4["writer"] = "송유리";
-$article4["writerAvatear"] = '<svg viewBox="0 0 264 280">
-<use xlink:href="#avatar-1"></use>
-</svg>';
+$article4["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article4["body"] = <<<EOT
+# Swiper 게이지바 (HTML)
 ```html
 <<!--REPLACE:script-->>
 <section class="section-1">
@@ -269,20 +260,16 @@ https://codepen.io/yurisong/embed/GRjYWvL?height=265&theme-id=light&default-tab=
 
 EOT;
 
-print_r($article4);
-exit;
-
 
 // 2번 
 
 $article3 = [];
 $article3["title"] = "Swiper_페이지바 적용";
-$article3["reg-date"] = "2020-01-13 00:57"
+$article3["reg-date"] = "2020-01-13 00:57";
 $article3["writer"] = "송유리";
-$article3["writerAvatear"] = '<svg viewBox="0 0 264 280">
-<use xlink:href="#avatar-1"></use>
-</svg>';
+$article3["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article3["body"] = <<<EOT
+# Swiper 페이지바 (HTML)
 ```html
 <<!--REPLACE:script-->>
 <section class="section-1">
@@ -350,19 +337,16 @@ G4gjZ97lx14
 
 EOT;
 
-print_r($article3);
-exit;
 
 // 1번
 
 $article2 = [];
 $article2["title"] = "Swiper_버튼 적용";
-$article2["reg-date"] = "2020-01-12 17:50"
+$article2["reg-date"] = "2020-01-12 17:50";
 $article2["writer"] = "송유리";
-$article2["writerAvatear"] = '<svg viewBox="0 0 264 280">
-<use xlink:href="#avatar-1"></use>
-</svg>';
+$article2["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article2["body"] = <<<EOT
+# Swiper 버튼 (HTML)
 ```html
 <<!--REPLACE:script-->>
 <section class="section-1">
@@ -432,21 +416,16 @@ https://codepen.io/yurisong/embed/XWjxbPQ?height=265&theme-id=light&default-tab=
 
 EOT;
 
-print_r($article2);
-exit;
 
 
-
-
-<!-- 0번 -->
+// 0번 
 $article1 = [];
 $article1["title"] = "Swiper 사용법";
-$article1["reg-date"] = "2020-01-12 14:49"
+$article1["reg-date"] = "2020-01-12 14:49";
 $article1["writer"] = "송유리";
-$article1["writerAvatear"] = '<svg viewBox="0 0 264 280">
-<use xlink:href="#avatar-1"></use>
-</svg>';
+$article1["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article1["body"] = <<<EOT
+# Swiper 사용법(HTML)
 ```html
 <<!--REPLACE:script-->>
 <!-- Slider main container -->
@@ -506,8 +485,8 @@ nmo45DTXEcM
 ```
 EOT;
 
-print_r($article1);
-exit;
-
-
+if ( isset($articleId) ) {
+  $articleVarName = "article" . $articleId;
+  $selectedArticle = $$articleVarName;
+}
  

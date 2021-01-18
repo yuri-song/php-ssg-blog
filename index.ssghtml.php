@@ -24,15 +24,12 @@ require_once "head.php";
               <div class="reg-writer">
                 <span><?=$aritcle6["writer"]?></span>
                 <span>
-                <?=$aritcle6["writerAvata"]?>
+                <?=$aritcle6["writerAvatear"]?>
                 </span>
 
               </div>
               <div class="body">
-                <script type="text/x-template">
-                  # Swiper 루프 (HTML)
-                  <?=$aritcle6["body"]?>
-                </script>
+                <script type="text/x-template"><?=$aritcle6["body"]?></script>
                 <div class="toast-ui-viewer"></div>
               </div>
             </li>
@@ -52,15 +49,12 @@ require_once "head.php";
               <div class="reg-writer">
                 <span><?=$aritcle5["writer"]?></span>
                 <span>
-                <?=$aritcle5["wirterAvata"]?>
+                <?=$aritcle5["writerAvatear"]?>
                 </span>
 
               </div>
               <div class="body">
-                <script type="text/x-template">
-                  # Swiper 분수 (HTML)
-                  <?=$aritcle5["body"]?>
-                </script>
+                <script type="text/x-template"><?=$aritcle5["body"]?></script>
                 <div class="toast-ui-viewer"></div>
               </div>
             </li>
@@ -81,15 +75,12 @@ require_once "head.php";
               <div class="reg-writer">
                 <span><?=$aritcle4["writer"]?></span>
                 <span>
-                <?=$aritcle4["writerAvata"]?>
+                <?=$aritcle4["writerAvatear"]?>
                 </span>
 
               </div>
               <div class="body">
-                <script type="text/x-template">
-                  # Swiper 게이지바 (HTML)
-                  <?=$aritcle4["body"]?>
-                </script>
+                <script type="text/x-template"><?=$aritcle4["body"]?></script>
                 <div class="toast-ui-viewer"></div>
               </div>
             </li>
@@ -108,15 +99,12 @@ require_once "head.php";
               <div class="reg-writer">
                 <span><?=$aritcle3["wirter"]?></span>
                 <span>
-                <?=$aritcle3["wirterAvater"]?>
+                <?=$aritcle3["writerAvatear"]?>
                 </span>
 
               </div>
               <div class="body">
-                <script type="text/x-template">
-                  # Swiper 페이지바 (HTML)
-                  <?=$aritcle3["body"]?>
-                </script>
+                <script type="text/x-template"><?=$aritcle3["body"]?></script>
                 <div class="toast-ui-viewer"></div>
               </div>
             </li>
@@ -130,7 +118,7 @@ require_once "head.php";
         <div class="article-list-box">
           <ul>
             <li>
-              <h1 class="title"><?=$aritcle2["title"]?></h1>
+              <h1 class="title"><a href="article_detail_2.ssghtml.php"><?=$aritcle2["title"]?></h1>
               <div class="reg-date"><?=$aritcle2["reg-date"]?></div>
               <div class="reg-writer">
                 <span><?=$aritcle2["writer"]?></span>
@@ -140,10 +128,7 @@ require_once "head.php";
 
               </div>
               <div class="body">
-                <script type="text/x-template">
-                  # Swiper 버튼 (HTML)
-                  <?=$aritcle2["body"]?>
-                </script>
+                <script type="text/x-template"><?=$aritcle2["body"]?></script>
                 <div class="toast-ui-viewer"></div>
               </div>
             </li>
@@ -157,7 +142,7 @@ require_once "head.php";
         <div class="article-list-box">
           <ul>
             <li>
-              <h1 class="title"><?=$aritcle1["title"]?></h1>
+              <h1 class="title"><a href="article_detail_1.ssghtml.php"></a><?=$aritcle1["title"]?></h1>
               <div class="reg-date"><?=$aritcle1["reg-date"]?></div>
               <div class="reg-writer">
                 <span><?=$aritcle1["writer"]?></span>
@@ -167,10 +152,7 @@ require_once "head.php";
 
               </div>
               <div class="body">
-                <script type="text/x-template">
-                  # Swiper 사용법(HTML)
-<?=$aritcle1["body"]?>                  
-                </script>
+                <script type="text/x-template"><?=$aritcle1["body"]?></script>
                 <div class="toast-ui-viewer"></div>
               </div>
             </li>

@@ -19,7 +19,5 @@
 </div>
 
 </body>
-<script src="common.js"></script>
-<script src="index.js"></script>
 
 </html>
