@@ -97,7 +97,7 @@ require_once "head.php";
           <h1 class="title"><?=$article3["title"]?></h1>
           <div class="reg-date"><?=$article3["reg-date"]?></div>
           <div class="reg-writer">
-            <span><?=$article3["wirter"]?></span>
+            <span><?=$article3["writer"]?></span>
             <span>
               <?=$article3["writerAvatear"]?>
             </span>
@@ -123,7 +123,7 @@ require_once "head.php";
           <div class="reg-writer">
             <span><?=$article2["writer"]?></span>
             <span>
-              <?=$article2["writerAvater"]?>
+              <?=$article2["writerAvatear"]?>
             </span>
 
           </div>
