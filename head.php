@@ -40,10 +40,10 @@
   <link rel="stylesheet" href="common.css">
   <link rel="stylesheet" href="index.css">
 
-  </head>
-  
+</head>
 
-  <body>
+
+<body>
 
 
   <!-- 시작 -->

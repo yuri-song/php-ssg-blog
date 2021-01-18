@@ -1,7 +1,6 @@
 <?php
 $siteTitle = "송유리 블로그";
 
-
 // 5번
 
 $article6 = [];
