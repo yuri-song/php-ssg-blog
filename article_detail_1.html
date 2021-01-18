@@ -32,7 +32,8 @@
 
   <!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
   <script
-    src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js" defer>
+    src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js"
+    defer>
   </script>
   <!-- 토스트 ui 끝 -->
 
@@ -58,37 +59,43 @@
             <span>💙</span>
             <span>yrong_blog</span>
           </a>
-          <nav class="top-bar__menu">
-            <ul class="flex">
+          <nav class="top-bar__menu-box-1 height-100p">
+            <ul class="flex height-100p">
               <li>
-                <a href="index.html">
+                <a href="index.html" class="flex flex-jc-c flex-ai-c height-100p">
                   <span><i class="fas fa-home"></i></span>
-                  <span>HOME</span></a>
+                  <span>HOME</span>
+                </a>
               </li>
               <li>
-                <a href="about.html">
-                  <span><i class="fas fa-user"></i></span>
-                  <span>ABOUT</span></a>
+                <a href="about.html" class="flex flex-jc-c flex-ai-c height-100p">
+                  <span><i class="far fa-address-card"></i></span>
+                  <span>ABOUT</span>
+                </a>
               </li>
-              <li><a href="pf.html">
-                  <span><i class="fas fa-book"></i></span>
-                  <span>PORTFOLIO</span></a></li>
-              <li><a href="#">
-                  <span><i class="far fa-list-alt"></i></span>
-                  <span>ARTICLES</span></a></li>
+              <li>
+                <a href="pf.html" class="flex flex-jc-c flex-ai-c height-100p">
+                  <span><i class="fas fa-list-alt"></i></span>
+                  <span>PORTFOLIO</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                  <span><i class="fas fa-newspaper"></i></span>
+                  <span>ARTICLES</span>
+                </a>
+              </li>
             </ul>
           </nav>
-
         </div>
-      </div>
     </header>
     <!-- 탑바 끝 -->
 
     <!-- 모바일 탑바 시작 -->
 
     <header class="mobile-top-bar con-min-width visible-sm-down flex">
-      <div class="flex flex-1-0-0">
-        <div class="mobile-top-bar__btn-toggle-side-bar flex-ai-s">
+      <div class="flex-1-0-0 flex">
+        <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c">
           <div></div>
           <div></div>
           <div></div>
@@ -100,39 +107,151 @@
           <span>yrong_blog</span>
         </a>
       </div>
-      <div class="flex-1-0-0">
-      </div>
+      <div class="flex-1-0-0"></div>
     </header>
 
+    <!-- 모바일 사이드 바 시작 -->
     <aside class="mobile-side-bar visible-sm-down">
-      <nav class="mobile-side-bar__menu-box">
+
+      <nav class="mobile-side-bar__menu-box-1">
         <ul>
           <li>
-            <a href="index.html" class="block">
+            <a href="#" class="block">
               <span><i class="fas fa-home"></i></span>
-              <span>HOME</span></a>
+              <span>HOME</span>
+            </a>
           </li>
-          <li>
-            <a href="about.html" class="block">
-              <span><i class="fas fa-user"></i></span>
-              <span>ABOUT</span></a>
-          </li>
-          <li><a href="pf.html" class="block">
-              <span><i class="fas fa-book"></i></span>
-              <span>PORTFOLIO</span></a></li>
           <li>
             <a href="#" class="block">
-              <span><i class="far fa-list-alt"></i></span>
-              <span>ARTICLES</span></a>
+              <span><i class="far fa-address-card"></i></span>
+              <span>ABOUT</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block">
+              <span><i class="fas fa-list-alt"></i></span>
+              <span>PORTFOLIO</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block">
+              <span><i class="fas fa-newspaper"></i></span>
+              <span>ARTICLES</span>
+            </a>
           </li>
         </ul>
-
       </nav>
-    </aside>
-    <!-- 모바일 탑바 끝 -->
 
-    <!-- 메인 시작 -->
-    <main></main>
+    </aside>
+    <!-- 모바일 사이드 바 끝 -->
+
+    <main><link rel="stylesheet" href="css/about.css">
+<script src="js/about.js" defer></script>
+
+<section class="section-title con-min-width">
+    <h1 class="con">
+        <span>
+            <i class="fas fa-newspaper"></i>
+        </span>
+        <span>
+            DETAIL
+        </span>
+    </h1>
+</section>
+
+<section class="section-article-detail con-min-width">
+    <div class="con">
+        <h1 class="article-list-box__title"><a href="article_detail_2.html">Swiper 사용법</a></h1>
+
+        <div class="article-list-box__reg-date">2020-01-12 14:49</div>
+        
+        <div class="article-list-box__writer">
+            <span>송유리</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+        </div>
+        
+        <div class="article-list-box__body">
+            <script type="text/x-template"># Swiper 사용법(HTML)
+```html
+<<!--REPLACE:script-->>
+<!-- Slider main container -->
+<div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    ...
+                  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+                  </div>
+                  </<!--REPLACE:script-->>
+```
+# Swiper 사용법(JS)
+```js
+var mySwiper = new Swiper('.swiper-container', {
+// Optional parameters
+direction: 'vertical',
+loop: true,
+
+// If we need pagination
+pagination: {
+el: '.swiper-pagination',
+},
+
+// Navigation arrows
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+
+// And if we need scrollbar
+scrollbar: {
+el: '.swiper-scrollbar',
+},
+})
+```
+# 실습
+```codepen
+https://codepen.io/yurisong/embed/qBaJBeV?height=265&theme-id=light&default-tab=html,result
+```
+
+# 참고 영상
+```youtube
+nmo45DTXEcM
+```</script>
+            <div class="toast-ui-viewer"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-article-reply-box con-min-width">
+    <div class="con">
+    <div id="disqus_thread"></div>
+    
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'https://b.yrongs.com/article_detail_1.html';
+            this.page.identifier = 'article_detail_1.html';
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://yurong_phpblog.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    </div>
+</section></main>
 <!-- 하단바 시작 -->
 <footer class="bottom-bar con-min-width">
   <div class="con flex flex-jc-c">
@@ -143,6 +262,8 @@
   </div>
 </footer>
 <!-- 하단바 끝 -->
+
+</div>
 
 <!-- 아바타 시작 -->
 <div class="svgs">
@@ -300,7 +421,6 @@
 </div>
 
 <!-- 아바타 끝 -->
-</div>
 
 </body>
 

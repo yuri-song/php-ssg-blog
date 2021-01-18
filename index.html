@@ -32,16 +32,19 @@
 
   <!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
   <script
-    src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js" defer>
+    src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js"
+    defer>
   </script>
   <!-- 토스트 ui 끝 -->
 
 
-  <link rel="stylesheet" href="common.css">
-  <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
 
-  <script src="common.js" defer></script>
-  <script src="index.js" defer></script>
+    <script src="common.js"></script>
+    <script src="index.js" defer></script>
+
+    <script id="dsq-count-scr" src="//yurong.disqus.com/count.js" async></script>
 
 </head>
 
@@ -51,44 +54,49 @@
 
   <!-- 시작 -->
   <div class="body-content">
-    <header class="visible-md-up">
-      <div class="top-bar con-min-width">
-        <div class="con height-100p flex flex-jc-c flex-ai-c flex-jc-sb">
-          <a href="index.html" class="logo">
+  <header class="top-bar con-min-width visible-md-up">
+      <div class="con height-100p flex flex-jc-sb">
+        <a href="index.html" class="logo">
             <span>💙</span>
             <span>yrong_blog</span>
           </a>
-          <nav class="top-bar__menu">
-            <ul class="flex">
+          <nav class="top-bar__menu-box-1 height-100p">
+            <ul class="flex height-100p">
               <li>
-                <a href="index.html">
+                <a href="index.html" class="flex flex-jc-c flex-ai-c height-100p">
                   <span><i class="fas fa-home"></i></span>
-                  <span>HOME</span></a>
+                  <span>HOME</span>
+                </a>
               </li>
               <li>
-                <a href="about.html">
-                  <span><i class="fas fa-user"></i></span>
-                  <span>ABOUT</span></a>
+                <a href="about.html" class="flex flex-jc-c flex-ai-c height-100p">
+                  <span><i class="far fa-address-card"></i></span>
+                  <span>ABOUT</span>
+                </a>
               </li>
-              <li><a href="pf.html">
-                  <span><i class="fas fa-book"></i></span>
-                  <span>PORTFOLIO</span></a></li>
-              <li><a href="#">
-                  <span><i class="far fa-list-alt"></i></span>
-                  <span>ARTICLES</span></a></li>
+              <li>
+                <a href="pf.html" class="flex flex-jc-c flex-ai-c height-100p">
+                  <span><i class="fas fa-list-alt"></i></span>
+                  <span>PORTFOLIO</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                  <span><i class="fas fa-newspaper"></i></span>
+                  <span>ARTICLES</span>
+                </a>
+              </li>
             </ul>
           </nav>
-
         </div>
-      </div>
     </header>
     <!-- 탑바 끝 -->
 
     <!-- 모바일 탑바 시작 -->
 
     <header class="mobile-top-bar con-min-width visible-sm-down flex">
-      <div class="flex flex-1-0-0">
-        <div class="mobile-top-bar__btn-toggle-side-bar flex-ai-s">
+      <div class="flex-1-0-0 flex">
+        <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c">
           <div></div>
           <div></div>
           <div></div>
@@ -100,39 +108,51 @@
           <span>yrong_blog</span>
         </a>
       </div>
-      <div class="flex-1-0-0">
-      </div>
+      <div class="flex-1-0-0"></div>
     </header>
 
+    <!-- 모바일 사이드 바 시작 -->
     <aside class="mobile-side-bar visible-sm-down">
-      <nav class="mobile-side-bar__menu-box">
+
+      <nav class="mobile-side-bar__menu-box-1">
         <ul>
           <li>
-            <a href="index.html" class="block">
+            <a href="#" class="block">
               <span><i class="fas fa-home"></i></span>
-              <span>HOME</span></a>
+              <span>HOME</span>
+            </a>
           </li>
-          <li>
-            <a href="about.html" class="block">
-              <span><i class="fas fa-user"></i></span>
-              <span>ABOUT</span></a>
-          </li>
-          <li><a href="pf.html" class="block">
-              <span><i class="fas fa-book"></i></span>
-              <span>PORTFOLIO</span></a></li>
           <li>
             <a href="#" class="block">
-              <span><i class="far fa-list-alt"></i></span>
-              <span>ARTICLES</span></a>
+              <span><i class="far fa-address-card"></i></span>
+              <span>ABOUT</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block">
+              <span><i class="fas fa-list-alt"></i></span>
+              <span>PORTFOLIO</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block">
+              <span><i class="fas fa-newspaper"></i></span>
+              <span>ARTICLES</span>
+            </a>
           </li>
         </ul>
-
       </nav>
-    </aside>
-    <!-- 모바일 탑바 끝 -->
 
-    <!-- 메인 시작 -->
-    <main><section class="section-title con-min-width">
+    </aside>
+    <!-- 모바일 사이드 바 끝 -->
+
+    <main><link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="index.css">
+
+<script src="common.js" defer></script>
+<script src="index.js"></script>
+
+<section class="section-title con-min-width">
   <h1 class="con">
     <span>
       <i class="fas fa-fire"></i>
@@ -148,16 +168,14 @@
   <div class="con">
     <div class="article-list-box">
       <ul>
-        <li>
-          <h1 class="article-list-box__title"><a href="article_detail_6.html">Swiper_루프 적용</a></h1>
+                        <li>
+          <h1 class="article-list-box__title"><a
+              href="article_detail_6.html">Swiper_루프 적용</a></h1>
           <div class="article-list-box__reg-date">2020-01-14 02:00</div>
-          <div class="article-list-box__reg-writer">
+          <div class="article-list-box__writer">
             <span>송유리</span>
-            <span>
-              <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>            </span>
-
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
           </div>
-
           <div class="article-list-box__body">
             <script type="text/x-template"># Swiper 루프 (HTML)
 ```html
@@ -239,26 +257,14 @@ https://codepen.io/yurisong/embed/VwKyxbz?height=265&theme-id=light&default-tab=
             <div class="toast-ui-viewer"></div>
           </div>
         </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- 3번-->
-
-<section class="section-latest-articles con-min-width">
-  <div class="con">
-    <div class="article-list-box">
-      <ul>
-        <li>
-          <h1 class="title"><a href="article_detail_5.html">Swiper_분수 적용</a></h1>
-          <div class="reg-date">2020-01-14 02:00</div>
-          <div class="reg-writer">
+                        <li>
+          <h1 class="article-list-box__title"><a
+              href="article_detail_5.html">Swiper_분수 적용</a></h1>
+          <div class="article-list-box__reg-date">2020-01-14 02:00</div>
+          <div class="article-list-box__writer">
             <span>송유리</span>
-            <span>
-              <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>            </span>
-
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
           </div>
-
           <div class="article-list-box__body">
             <script type="text/x-template"># Swiper 분수 (HTML)
 ```html
@@ -337,27 +343,14 @@ https://codepen.io/yurisong/embed/QWKardo?height=265&theme-id=light&default-tab=
             <div class="toast-ui-viewer"></div>
           </div>
         </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- 2번-->
-
-
-<section class="section-latest-articles con-min-width">
-  <div class="con">
-    <div class="article-list-box">
-      <ul>
-        <li>
-          <h1 class="title"><a href="article_detail_4.html">Swiper_게이지바 적용</a></h1>
-          <div class="reg-date">2020-01-13 00:57</div>
-          <div class="reg-writer">
+                        <li>
+          <h1 class="article-list-box__title"><a
+              href="article_detail_4.html">Swiper_게이지바 적용</a></h1>
+          <div class="article-list-box__reg-date">2020-01-13 00:57</div>
+          <div class="article-list-box__writer">
             <span>송유리</span>
-            <span>
-              <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>            </span>
-
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
           </div>
-
           <div class="article-list-box__body">
             <script type="text/x-template"># Swiper 게이지바 (HTML)
 ```html
@@ -436,25 +429,14 @@ https://codepen.io/yurisong/embed/GRjYWvL?height=265&theme-id=light&default-tab=
             <div class="toast-ui-viewer"></div>
           </div>
         </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- 1번-->
-<section class="section-latest-articles con-min-width">
-  <div class="con">
-    <div class="article-list-box">
-      <ul>
-        <li>
-          <h1 class="title"><a href="article_detail_3.html">Swiper_페이지바 적용</a></h1>
-          <div class="reg-date">2020-01-13 00:57</div>
-          <div class="reg-writer">
+                        <li>
+          <h1 class="article-list-box__title"><a
+              href="article_detail_3.html">Swiper_페이지바 적용</a></h1>
+          <div class="article-list-box__reg-date">2020-01-13 00:57</div>
+          <div class="article-list-box__writer">
             <span>송유리</span>
-            <span>
-              <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>            </span>
-
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
           </div>
-
           <div class="article-list-box__body">
             <script type="text/x-template"># Swiper 페이지바 (HTML)
 ```html
@@ -525,25 +507,14 @@ G4gjZ97lx14
             <div class="toast-ui-viewer"></div>
           </div>
         </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- 2번 끝-->
-<section class="section-latest-articles con-min-width">
-  <div class="con">
-    <div class="article-list-box">
-      <ul>
-        <li>
-          <h1 class="title"><a href="article_detail_2.html">Swiper_버튼 적용</a></h1>
-          <div class="reg-date">2020-01-12 17:50</div>
-          <div class="reg-writer">
+                        <li>
+          <h1 class="article-list-box__title"><a
+              href="article_detail_2.html">Swiper_버튼 적용</a></h1>
+          <div class="article-list-box__reg-date">2020-01-12 17:50</div>
+          <div class="article-list-box__writer">
             <span>송유리</span>
-            <span>
-              <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>            </span>
-
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
           </div>
-
           <div class="article-list-box__body">
             <script type="text/x-template"># Swiper 버튼 (HTML)
 ```html
@@ -616,25 +587,14 @@ https://codepen.io/yurisong/embed/XWjxbPQ?height=265&theme-id=light&default-tab=
             <div class="toast-ui-viewer"></div>
           </div>
         </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- 0번 -->
-<section class="section-latest-articles con-min-width">
-  <div class="con">
-    <div class="article-list-box">
-      <ul>
-        <li>
-          <h1 class="title"><a href="article_detail_1.html">Swiper 사용법</a></h1>
-          <div class="reg-date">2020-01-12 14:49</div>
-          <div class="reg-writer">
+                        <li>
+          <h1 class="article-list-box__title"><a
+              href="article_detail_1.html">Swiper 사용법</a></h1>
+          <div class="article-list-box__reg-date">2020-01-12 14:49</div>
+          <div class="article-list-box__writer">
             <span>송유리</span>
-            <span>
-              <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>            </span>
-
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
           </div>
-
           <div class="article-list-box__body">
             <script type="text/x-template"># Swiper 사용법(HTML)
 ```html
@@ -697,11 +657,10 @@ nmo45DTXEcM
             <div class="toast-ui-viewer"></div>
           </div>
         </li>
-      </ul>
+              </ul>
     </div>
   </div>
 </section>
-
 
 </main>
 <!-- 하단바 시작 -->
@@ -714,6 +673,8 @@ nmo45DTXEcM
   </div>
 </footer>
 <!-- 하단바 끝 -->
+
+</div>
 
 <!-- 아바타 시작 -->
 <div class="svgs">
@@ -871,7 +832,6 @@ nmo45DTXEcM
 </div>
 
 <!-- 아바타 끝 -->
-</div>
 
 </body>
 

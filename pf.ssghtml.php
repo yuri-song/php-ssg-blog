@@ -1,9 +1,10 @@
 <?php
+require_once "data.php";
 require_once "head.php";
 ?>
 
 <link rel="stylesheet" href="common.css">
-<link rel="stylesheet" href="index.css">
+<script src="common.js" defer></script>
 
 <section class="section-title con-min-width">
   <h1 class="con">
@@ -11,7 +12,7 @@ require_once "head.php";
       <i class="fas fa-book-open"></i>
     </span>
     <span>
-      PORTFOLIO
+      PORFOLIO
     </span>
   </h1>
 </section>

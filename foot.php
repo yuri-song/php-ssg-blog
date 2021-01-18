@@ -10,6 +10,8 @@
 </footer>
 <!-- 하단바 끝 -->
 
+</div>
+
 <!-- 아바타 시작 -->
 <div class="svgs">
   <svg id="avatar-1" viewBox="0 0 264 280" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -166,7 +168,6 @@
 </div>
 
 <!-- 아바타 끝 -->
-</div>
 
 </body>
 

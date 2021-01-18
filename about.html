@@ -32,16 +32,19 @@
 
   <!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
   <script
-    src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js" defer>
+    src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js"
+    defer>
   </script>
   <!-- 토스트 ui 끝 -->
 
 
-  <link rel="stylesheet" href="common.css">
-  <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
 
-  <script src="common.js" defer></script>
-  <script src="index.js" defer></script>
+    <script src="common.js"></script>
+    <script src="index.js" defer></script>
+
+    <script id="dsq-count-scr" src="//yurong.disqus.com/count.js" async></script>
 
 </head>
 
@@ -51,44 +54,49 @@
 
   <!-- 시작 -->
   <div class="body-content">
-    <header class="visible-md-up">
-      <div class="top-bar con-min-width">
-        <div class="con height-100p flex flex-jc-c flex-ai-c flex-jc-sb">
-          <a href="index.html" class="logo">
+  <header class="top-bar con-min-width visible-md-up">
+      <div class="con height-100p flex flex-jc-sb">
+        <a href="index.html" class="logo">
             <span>💙</span>
             <span>yrong_blog</span>
           </a>
-          <nav class="top-bar__menu">
-            <ul class="flex">
+          <nav class="top-bar__menu-box-1 height-100p">
+            <ul class="flex height-100p">
               <li>
-                <a href="index.html">
+                <a href="index.html" class="flex flex-jc-c flex-ai-c height-100p">
                   <span><i class="fas fa-home"></i></span>
-                  <span>HOME</span></a>
+                  <span>HOME</span>
+                </a>
               </li>
               <li>
-                <a href="about.html">
-                  <span><i class="fas fa-user"></i></span>
-                  <span>ABOUT</span></a>
+                <a href="about.html" class="flex flex-jc-c flex-ai-c height-100p">
+                  <span><i class="far fa-address-card"></i></span>
+                  <span>ABOUT</span>
+                </a>
               </li>
-              <li><a href="pf.html">
-                  <span><i class="fas fa-book"></i></span>
-                  <span>PORTFOLIO</span></a></li>
-              <li><a href="#">
-                  <span><i class="far fa-list-alt"></i></span>
-                  <span>ARTICLES</span></a></li>
+              <li>
+                <a href="pf.html" class="flex flex-jc-c flex-ai-c height-100p">
+                  <span><i class="fas fa-list-alt"></i></span>
+                  <span>PORTFOLIO</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                  <span><i class="fas fa-newspaper"></i></span>
+                  <span>ARTICLES</span>
+                </a>
+              </li>
             </ul>
           </nav>
-
         </div>
-      </div>
     </header>
     <!-- 탑바 끝 -->
 
     <!-- 모바일 탑바 시작 -->
 
     <header class="mobile-top-bar con-min-width visible-sm-down flex">
-      <div class="flex flex-1-0-0">
-        <div class="mobile-top-bar__btn-toggle-side-bar flex-ai-s">
+      <div class="flex-1-0-0 flex">
+        <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c">
           <div></div>
           <div></div>
           <div></div>
@@ -100,41 +108,47 @@
           <span>yrong_blog</span>
         </a>
       </div>
-      <div class="flex-1-0-0">
-      </div>
+      <div class="flex-1-0-0"></div>
     </header>
 
+    <!-- 모바일 사이드 바 시작 -->
     <aside class="mobile-side-bar visible-sm-down">
-      <nav class="mobile-side-bar__menu-box">
+
+      <nav class="mobile-side-bar__menu-box-1">
         <ul>
           <li>
-            <a href="index.html" class="block">
+            <a href="#" class="block">
               <span><i class="fas fa-home"></i></span>
-              <span>HOME</span></a>
+              <span>HOME</span>
+            </a>
           </li>
-          <li>
-            <a href="about.html" class="block">
-              <span><i class="fas fa-user"></i></span>
-              <span>ABOUT</span></a>
-          </li>
-          <li><a href="pf.html" class="block">
-              <span><i class="fas fa-book"></i></span>
-              <span>PORTFOLIO</span></a></li>
           <li>
             <a href="#" class="block">
-              <span><i class="far fa-list-alt"></i></span>
-              <span>ARTICLES</span></a>
+              <span><i class="far fa-address-card"></i></span>
+              <span>ABOUT</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block">
+              <span><i class="fas fa-list-alt"></i></span>
+              <span>PORTFOLIO</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block">
+              <span><i class="fas fa-newspaper"></i></span>
+              <span>ARTICLES</span>
+            </a>
           </li>
         </ul>
-
       </nav>
-    </aside>
-    <!-- 모바일 탑바 끝 -->
 
-    <!-- 메인 시작 -->
+    </aside>
+    <!-- 모바일 사이드 바 끝 -->
+
     <main>
-<link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
+<link rel="stylesheet" href="common.css">
+<script src="common.js" defer></script>
 
 <section class="section-title con-min-width">
   <h1 class="con">
@@ -157,6 +171,8 @@
   </div>
 </footer>
 <!-- 하단바 끝 -->
+
+</div>
 
 <!-- 아바타 시작 -->
 <div class="svgs">
@@ -314,7 +330,6 @@
 </div>
 
 <!-- 아바타 끝 -->
-</div>
 
 </body>
 

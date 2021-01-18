@@ -4,10 +4,11 @@ $siteTitle = "yrong_blog";
 // 5번
 
 $article6 = [];
+$article6["id"] = 6;
 $article6["title"] = "Swiper_루프 적용";
-$article6["reg-date"] = "2020-01-14 02:00";
-$article6["writer"] = "송유리";
-$article6["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article6["regDate"] = "2020-01-14 02:00";
+$article6["writerName"] = "송유리";
+$article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article6["body"] = <<<EOT
 # Swiper 루프 (HTML)
 ```html
@@ -93,10 +94,11 @@ EOT;
 //4번
 
 $article5 = [];
+$article5["id"] = 5;
 $article5["title"] = "Swiper_분수 적용";
-$article5["reg-date"] = "2020-01-14 02:00";
-$article5["writer"] = "송유리";
-$article5["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article5["regDate"] = "2020-01-14 02:00";
+$article5["writerName"] = "송유리";
+$article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article5["body"] = <<<EOT
 # Swiper 분수 (HTML)
 ```html
@@ -178,10 +180,11 @@ EOT;
 // 3번
 
 $article4 = [];
+$article4["id"] = 4;
 $article4["title"] = "Swiper_게이지바 적용";
-$article4["reg-date"] = "2020-01-13 00:57";
-$article4["writer"] = "송유리";
-$article4["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article4["regDate"] = "2020-01-13 00:57";
+$article4["writerName"] = "송유리";
+$article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article4["body"] = <<<EOT
 # Swiper 게이지바 (HTML)
 ```html
@@ -263,10 +266,11 @@ EOT;
 // 2번 
 
 $article3 = [];
+$article3["id"] = 3;
 $article3["title"] = "Swiper_페이지바 적용";
-$article3["reg-date"] = "2020-01-13 00:57";
-$article3["writer"] = "송유리";
-$article3["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article3["regDate"] = "2020-01-13 00:57";
+$article3["writerName"] = "송유리";
+$article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article3["body"] = <<<EOT
 # Swiper 페이지바 (HTML)
 ```html
@@ -340,10 +344,11 @@ EOT;
 // 1번
 
 $article2 = [];
+$article2["id"] = 2;
 $article2["title"] = "Swiper_버튼 적용";
-$article2["reg-date"] = "2020-01-12 17:50";
-$article2["writer"] = "송유리";
-$article2["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article2["regDate"] = "2020-01-12 17:50";
+$article2["writerName"] = "송유리";
+$article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article2["body"] = <<<EOT
 # Swiper 버튼 (HTML)
 ```html
@@ -419,10 +424,11 @@ EOT;
 
 // 0번 
 $article1 = [];
+$article1["id"] = 1;
 $article1["title"] = "Swiper 사용법";
-$article1["reg-date"] = "2020-01-12 14:49";
-$article1["writer"] = "송유리";
-$article1["writerAvatear"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article1["regDate"] = "2020-01-12 14:49";
+$article1["writerName"] = "송유리";
+$article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article1["body"] = <<<EOT
 # Swiper 사용법(HTML)
 ```html
