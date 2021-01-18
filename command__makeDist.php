@@ -3,7 +3,7 @@ $originFiles = [
     "index.ssghtml.php",
     "about.ssghtml.php",
     "pf.ssghtml.php",
-    "article_detail_.ssghtml.php",
+    "article_detail.php",
 
 ];
 
