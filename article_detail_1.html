@@ -38,11 +38,14 @@
   <!-- 토스트 ui 끝 -->
 
 
-  <link rel="stylesheet" href="common.css">
-  <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
 
-  <script src="common.js" defer></script>
-  <script src="index.js" defer></script>
+    <script src="common.js"></script>
+    <script src="index.js" defer></script>
+
+    
+    <script id="dsq-count-scr" src="//phpblog-5.disqus.com/count.js" async></script>
 
 </head>
 
@@ -50,12 +53,12 @@
 <body>
 
 
+
   <!-- 시작 -->
   <div class="body-content">
-    <header class="visible-md-up">
-      <div class="top-bar con-min-width">
-        <div class="con height-100p flex flex-jc-c flex-ai-c flex-jc-sb">
-          <a href="index.html" class="logo">
+  <header class="top-bar con-min-width visible-md-up">
+      <div class="con height-100p flex flex-jc-sb">
+        <a href="index.html" class="logo">
             <span>💙</span>
             <span>yrong_blog</span>
           </a>
@@ -145,113 +148,7 @@
     </aside>
     <!-- 모바일 사이드 바 끝 -->
 
-    <main><link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
-
-<section class="section-title con-min-width">
-    <h1 class="con">
-        <span>
-            <i class="fas fa-newspaper"></i>
-        </span>
-        <span>
-            DETAIL
-        </span>
-    </h1>
-</section>
-
-<section class="section-article-detail con-min-width">
-    <div class="con">
-        <h1 class="article-list-box__title"><a href="article_detail_2.html">Swiper 사용법</a></h1>
-
-        <div class="article-list-box__reg-date">2020-01-12 14:49</div>
-        
-        <div class="article-list-box__writer">
-            <span>송유리</span>
-            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
-        </div>
-        
-        <div class="article-list-box__body">
-            <script type="text/x-template"># Swiper 사용법(HTML)
-```html
-<<!--REPLACE:script-->>
-<!-- Slider main container -->
-<div class="swiper-container">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    ...
-                  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
-                  </div>
-                  </<!--REPLACE:script-->>
-```
-# Swiper 사용법(JS)
-```js
-var mySwiper = new Swiper('.swiper-container', {
-// Optional parameters
-direction: 'vertical',
-loop: true,
-
-// If we need pagination
-pagination: {
-el: '.swiper-pagination',
-},
-
-// Navigation arrows
-navigation: {
-nextEl: '.swiper-button-next',
-prevEl: '.swiper-button-prev',
-},
-
-// And if we need scrollbar
-scrollbar: {
-el: '.swiper-scrollbar',
-},
-})
-```
-# 실습
-```codepen
-https://codepen.io/yurisong/embed/qBaJBeV?height=265&theme-id=light&default-tab=html,result
-```
-
-# 참고 영상
-```youtube
-nmo45DTXEcM
-```</script>
-            <div class="toast-ui-viewer"></div>
-        </div>
-    </div>
-</section>
-
-<section class="section-article-reply-box con-min-width">
-    <div class="con">
-    <div id="disqus_thread"></div>
-    
-    <script>
-        var disqus_config = function () {
-            this.page.url = 'https://b.yrongs.com/article_detail_1.html';
-            this.page.identifier = 'article_detail_1.html';
-        };
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://yurong_phpblog.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    </div>
-</section></main>
+    <main></main>
 <!-- 하단바 시작 -->
 <footer class="bottom-bar con-min-width">
   <div class="con flex flex-jc-c">
