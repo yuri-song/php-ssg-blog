@@ -90,7 +90,7 @@ https://codepen.io/yurisong/embed/VwKyxbz?height=265&theme-id=light&default-tab=
 
 EOT;
 
-print_r($article1);
+print_r($article6);
 exit;
 
 
@@ -180,7 +180,7 @@ https://codepen.io/yurisong/embed/QWKardo?height=265&theme-id=light&default-tab=
 
 EOT;
 
-print_r($article1);
+print_r($article5);
 exit;
 
 
@@ -269,7 +269,7 @@ https://codepen.io/yurisong/embed/GRjYWvL?height=265&theme-id=light&default-tab=
 
 EOT;
 
-print_r($article1);
+print_r($article4);
 exit;
 
 
@@ -350,7 +350,7 @@ G4gjZ97lx14
 
 EOT;
 
-print_r($article1);
+print_r($article3);
 exit;
 
 // 1번
@@ -432,7 +432,7 @@ https://codepen.io/yurisong/embed/XWjxbPQ?height=265&theme-id=light&default-tab=
 
 EOT;
 
-print_r($article1);
+print_r($article2);
 exit;
 
 
