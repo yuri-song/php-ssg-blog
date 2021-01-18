@@ -44,12 +44,14 @@
     <script src="common.js"></script>
     <script src="index.js" defer></script>
 
-    <script id="dsq-count-scr" src="//yurong.disqus.com/count.js" async></script>
+    
+    <script id="dsq-count-scr" src="//phpblog-5.disqus.com/count.js" async></script>
 
 </head>
 
 
 <body>
+
 
 
   <!-- 시작 -->
