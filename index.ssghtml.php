@@ -19,9 +19,9 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="title"><a href="article_detail_6.ssghtml.php"><?=$article6["title"]?></a></h1>
-          <div class="reg-date"><?=$article6["reg-date"]?></div>
-          <div class="reg-writer">
+          <h1 class="article-list-box__title"><a href="article_detail_6.ssghtml.php"><?=$article6["title"]?></a></h1>
+          <div class="article-list-box__reg-date"><?=$article6["reg-date"]?></div>
+          <div class="article-list-box__reg-writer">
             <span><?=$article6["writer"]?></span>
             <span>
               <?=$article6["writerAvatear"]?>
