@@ -1,4 +1,5 @@
 <?php
+require_once "date.php";
 require_once "head.php";
 ?>
 
