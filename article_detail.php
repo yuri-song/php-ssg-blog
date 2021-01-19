@@ -44,7 +44,6 @@
                     this.page.identifier =
                     'article_detail_<?=$articleId?>.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
             };
-            */
             (function () { // DON'T EDIT BELOW THIS LINE
                 var d = document,
                     s = d.createElement('script');
@@ -53,7 +52,5 @@
                 (d.head || d.body).appendChild(s);
             })();
         </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-                Disqus.</a></noscript>
     </div>
 </section>
