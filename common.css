@@ -33,6 +33,7 @@ a {
   padding: 0 10px;
 }
 
+
 .flex {
   display: flex;
 }
@@ -236,7 +237,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 20%;
   height: 20%;
   background-color: white;
   transition: top var(--mobile-top-bar__btn-toggle-side-bar__dur), transform var(--mobile-top-bar__btn-toggle-side-bar__dur), opacity var(--mobile-top-bar__btn-toggle-side-bar__dur);
