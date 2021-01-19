@@ -40,14 +40,13 @@
         <script>
             var disqus_config = function () {
                 this.page.url =
-                    https: '//b.yrongs.com/article_detail_<?=$articleId?>.html';  // Replace PAGE_URL with your page's canonical URL variable
-                    this.page.identifier =
-                    'article_detail_<?=$articleId?>.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    https: '//b.yrongs.com/article_detail_<?=$articleId?>.html';
+                this.page.identifier = 'article_detail_<?=$articleId?>.html';
             };
             (function () { // DON'T EDIT BELOW THIS LINE
                 var d = document,
                     s = d.createElement('script');
-                s.src = 'https://phpblog-5.disqus.com/embed.js';
+                s.src = 'https://phprong.disqus.com/embed.js';
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
