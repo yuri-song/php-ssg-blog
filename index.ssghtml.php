@@ -11,10 +11,10 @@ require_once "head.php";
 <section class="section-title con-min-width">
   <h1 class="con">
     <span>
-      <i class="fas fa-fire"></i>
+      <i class="far fa-check-square"></i>
     </span>
     <span>
-      LATEST ARTICLES
+      NEW ARTICLES
     </span>
   </h1>
 </section>
