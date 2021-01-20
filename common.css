@@ -109,15 +109,15 @@ a {
   box-sizing: border-box;
 }
 
-@media (max-width:720px) {
+@media (max-width:700px) {
   .visible-md-up {
-    display: none !important;
+    display: none 
   }
 }
 
-@media (min-width:721px) {
+@media (min-width:701px) {
   .visible-sm-down {
-    display: none !important;
+    display: none 
   }
 }
 
