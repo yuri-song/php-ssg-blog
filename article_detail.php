@@ -39,8 +39,7 @@
         <div id="disqus_thread"></div>
         <script>
             var disqus_config = function () {
-                this.page.url =
-                    https: '//b.yrongs.com/article_detail_<?=$articleId?>.html';
+                this.page.url ='https://b.yrongs.com/article_detail_<?=$articleId?>.html';
                 this.page.identifier = 'article_detail_<?=$articleId?>.html';
             };
             (function () { // DON'T EDIT BELOW THIS LINE
