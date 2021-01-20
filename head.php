@@ -96,20 +96,23 @@
 
     <!-- 모바일 탑바 시작 -->
 
-    <header class="mobile-top-bar con-min-width visible-sm-down flex">
-      <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c flex-1-0-0">
-          <div></div>
-          <div></div>
-          <div></div>
+    <header class="mobile-top-bar visible-sm-down flex">
+    <div class="flex flex-1-0-0">
+      <div class="mobile-top-bar__btn-toggle-side-bar flex-ai-s">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
-      <div>
-        <a href="index.ssghtml.php" class="logo height-100p">
-          <span>💙</span>
-          <span>yrong_blog</span>
-        </a>
-      </div>
-      <div class="flex-1-0-0"></div>
-    </header>
+    </div>
+    <div>
+      <a class="logo height-100p">
+        <span>💙</span>
+        <span>yrong_blog</span>
+      </a>
+    </div>
+    <div class="flex-1-0-0">
+    </div>
+  </header>
 
     <!-- 모바일 사이드 바 시작 -->
     <aside class="mobile-side-bar visible-sm-down">
