@@ -97,26 +97,25 @@
     <!-- 탑바 끝 -->
 
     <!-- 모바일 탑바 시작 -->
-    <div class="mobile-top-bar-padding visible-sm-down">
-
-      <header class="mobile-top-bar con-min-width visible-sm-down flex">
-        <div class="flex flex-1-0-0">
-          <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
+    <div class="mobile-top-bar-padding visible-sm-down"></div>
+  
+    <header class="mobile-top-bar con-min-width visible-sm-down flex">
+      <div class="flex-1-0-0 flex">
+        <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-        <div>
-          <a class="logo height-100p">
-            <span>💙</span>
-            <span>yrong_blog</span>
-          </a>
-        </div>
-        <div class="flex-1-0-0">
-        </div>
-      </header>
-    </div>
+      </div>
+      <div>
+        <a href="#" class="logo height-100p">
+          <span>💙</span>
+          <span>yrong_blog</span>
+        </a>
+      </div>
+      <div class="flex-1-0-0"></div>
+    </header>
+    <!-- 모바일 탑바 끝 -->
 
     <!-- 모바일 사이드 바 시작 -->
     <aside class="mobile-side-bar visible-sm-down">
