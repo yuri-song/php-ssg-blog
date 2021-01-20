@@ -219,7 +219,12 @@ a {
 .mobile-top-bar {
   background-color:#fff;
   color:black;
-  height:var(--mobile-top-bar__height);
+  height: var(--mobile-top-bar__height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 :root {
