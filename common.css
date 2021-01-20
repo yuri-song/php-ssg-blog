@@ -132,7 +132,7 @@ a {
 
 .con {
   max-width: var(--site-width);
-  width: :1200px;
+  width: 1200px;
 }
 
 /* 바디 콘텐트 시작 */
