@@ -109,15 +109,15 @@ a {
   box-sizing: border-box;
 }
 
-@media (max-width:700px) {
+@media ( max-width:700px)  {
   .visible-md-up {
-    display: none 
+    display: none; 
   }
 }
 
-@media (min-width:701px) {
+@media ( min-width:701px ) {
   .visible-sm-down {
-    display: none 
+    display: none; 
   }
 }
 
@@ -181,13 +181,9 @@ a {
   margin-left: 10px;
 }
 
-.top-bar__menu-box-1>ul>li {
-  flex:1 0 0;
-}
 
 .top-bar__menu-box>ul>li>a {
   font-weight: bold;
-  padding-left: 20px;
   padding-right: 20px;
   color: black;
   font-size: 20px;
@@ -201,7 +197,7 @@ a {
   
 }
 
-.top-bar__menu-box-1>ul>li>a>span:first-child {
+.top-bar__menu-box>ul>li>a>span:first-child {
   margin-right: 3px;
 }
 
